@@ -35,7 +35,7 @@ public class MyFrame extends JFrame implements ActionListener
         setSize(400, 400);
         c.add(Stampa);
         Stampa.addActionListener(e -> Stampa());
-         
+        setVisible(true);
         this.a=a;
 	}
 	
